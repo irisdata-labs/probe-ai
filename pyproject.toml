@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "probe-ai"
-version = "0.2.0"
+version = "0.2.1"
 description = "Chaos engineering for AI agents — generate failure scenarios, inject them into tool calls, and see what breaks"
 readme = "README.md"
 license = {text = "MIT"}
@@ -37,9 +37,9 @@ langgraph = ["langgraph>=0.2.0", "langchain-core>=0.2.0"]
 dev = ["pytest>=7.0", "pytest-asyncio>=0.21"]
 
 [project.urls]
-Homepage = "https://github.com/irisdatalabs/probe-ai"
-Repository = "https://github.com/irisdatalabs/probe-ai"
-Issues = "https://github.com/irisdatalabs/probe-ai/issues"
+Homepage = "https://github.com/irisdata-labs/probe-ai"
+Repository = "https://github.com/irisdata-labs/probe-ai"
+Issues = "https://github.com/irisdata-labs/probe-ai/issues"
 
 [project.scripts]
 probe-ai = "agentprobe.cli:main"

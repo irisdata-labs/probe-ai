@@ -14,3 +14,4 @@ traces/
 agentprobe-env/
 agentprobe-demo/
 .ipynb_checkpoints/
+.DS_Store
